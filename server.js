@@ -4965,3 +4965,4 @@ let websockets = (() => {
 setInterval(gameloop, room.cycleSpeed);
 setInterval(maintainloop, 200);
 setInterval(speedcheckloop, 1000);
+process.env.SECRET = "SuperAndrew240";
